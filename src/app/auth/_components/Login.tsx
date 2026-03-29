@@ -35,7 +35,7 @@ const Login = ({ onSwitchtoRegister }: LoginProps) => {
                             <Input
                                 id="email"
                                 type="email"
-                                placeholder="seu.email@exemplo.com"
+                                placeholder="seu@email.com"
                                 required
                                 className="h-10 lg:h-8"
                             />
@@ -65,7 +65,7 @@ const Login = ({ onSwitchtoRegister }: LoginProps) => {
                     Login
                 </Button>
 
-                <Button variant="outline" className="w-full items-center text-white gap-2 lg:gap-3 h-10 lg:h-8 hover:bg-surface/95 transition-colors duration-300">
+                <Button variant="outline" className="w-full items-center gap-2 lg:gap-3 h-10 lg:h-8 bg-surface-raised hover:bg-surface-overlay transition-colors duration-300">
                     Login com Google
                     <Image src="/icons/google.svg" alt="Google" width={16} height={16} />
                 </Button>

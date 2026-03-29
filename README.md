@@ -1,11 +1,10 @@
 # Prism
 
-**Changelogs e Release Notes que fazem seu produto evoluir de forma pública.**
+**Acompanhe as atualizações das tecnologias que você usa — num só lugar.**
 
-O Prism é uma plataforma SaaS para publicar atualizações de produtos digitais com clareza e organização. Crie uma página pública de changelog, notifique usuários por e-mail automaticamente e incorpore atualizações em qualquer site com um widget embeddable.
+O Prism agrega release notes e changelogs das principais tecnologias do mercado diretamente do GitHub. Escolha o que quer acompanhar, defina a frequência de notificação, e receba um digest por e-mail com tudo que mudou.
 
-Feito para startups, desenvolvedores e projetos open source que querem mostrar evolução real, comunicar novas features e construir confiança com usuários.
-
+Sem precisar entrar em 15 repositórios diferentes. Sem perder uma breaking change importante.
 
 ### Pré-requisitos
 
@@ -31,7 +30,7 @@ src/
 ├── app/
 │   ├── auth/           # Páginas de autenticação
 │   ├── dashboard/      # Painel do usuário autenticado
-│   └── [slug]/         # Página pública do changelog
+│   └── tech/           # Catálogo e páginas de cada tecnologia
 ├── components/
 │   ├── core/           # Componentes base da aplicação
 │   └── ui/             # Componentes do design system (shadcn/ui)
