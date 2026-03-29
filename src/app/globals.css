@@ -146,6 +146,7 @@ body {
   /* Animação de brilho neon */
   .neon-glow-card {
     @apply relative isolate w-full max-w-sm;
+    overflow: clip; /* corta o pseudo-elemento de 500px sem afetar position:absolute dos filhos */
 
     &::before {
       content: '';
