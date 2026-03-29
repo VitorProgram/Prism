@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-BR"
       className={cn("h-full", "antialiased", syne.variable, dmMono.variable, lora.variable, pressStart2P.variable, "font-sans", geist.variable)}
     >
       <body>{children}</body>
