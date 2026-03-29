@@ -1,12 +1,21 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <h1 className="text-primary">Prism</h1>
-      <Button className="bg-primary text-black">
-        Click
-      </Button>
+      <header className="container mx-auto h-20 flex items-center">
+        <div className="flex gap-4 justify-start items-center">
+          <Image
+            src="/prism-icon.svg"
+            alt="Prism Logo"
+            width={40}
+            height={40}
+          />
+
+          <h1 className="text-2xl font-bold">Prism</h1>
+        </div>
+      </header>
     </>
   );  
 }

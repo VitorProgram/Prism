@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Syne, DM_Mono, Lora, Geist } from "next/font/google";
+import { Syne, DM_Mono, Lora, Geist, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
@@ -8,6 +8,12 @@ const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 const syne = Syne({
   variable: "--font-syne",
   subsets: ["latin"],
+});
+
+const pressStart2P = Press_Start_2P({
+  variable: "--font-press-start-2p",
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 const dmMono = DM_Mono({
@@ -34,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", syne.variable, dmMono.variable, lora.variable, "font-sans", geist.variable)}
+      className={cn("h-full", "antialiased", syne.variable, dmMono.variable, lora.variable, pressStart2P.variable, "font-sans", geist.variable)}
     >
       <body>{children}</body>
     </html>

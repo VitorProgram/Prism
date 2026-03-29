@@ -142,6 +142,22 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@layer components {
+  /* Animação de brilho neon */
+  .neon-glow-card {
+    @apply relative isolate w-full max-w-sm;
+
+    &::before {
+      content: '';
+      @apply pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-transparent blur-[100px] -z-10 transition-all duration-700;
+    }
+
+    &:has(input:focus)::before {
+      background-color: rgb(200 240 66 / 0.10);
+    }
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
