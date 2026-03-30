@@ -83,12 +83,12 @@ export default function Home() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-3 mt-2">
-                        <Link href="/signup">
+                        <Link href="/auth">
                             <Button className="h-10 px-6 text-sm font-medium">
                                 Começar grátis
                             </Button>
                         </Link>
-                        <Link href="/tech">
+                        <Link href="/techs">
                             <Button variant="outline" className="h-10 px-6 text-sm text-foreground">
                                 Ver tecnologias
                             </Button>
@@ -161,7 +161,7 @@ export default function Home() {
                     </div>
 
                     <div className="mt-10 flex justify-center">
-                        <Link href="/techs">
+                        <Link href="/tech">
                             <Button variant="outline" className="h-9 px-5 text-sm text-foreground">
                                 Ver catálogo completo
                             </Button>
@@ -186,7 +186,7 @@ export default function Home() {
                     <form action="/signup" method="GET" className="w-full flex flex-col sm:flex-row gap-3 mt-2">
                         <Input
                             id="email"
-                            className="h-10 lg:h-8 ring-0 focus-visible:ring-0 border border-gray-600 focus-visible:border-primary"
+                            className="h-10 lg:h-10 ring-0 focus-visible:ring-0 border border-gray-600 focus-visible:border-primary"
                             type="email"
                             placeholder="seu@email.com"
                             required

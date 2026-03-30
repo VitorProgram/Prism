@@ -32,12 +32,11 @@ const AuthView = () => {
 
                 <div className="absolute inset-0 z-20 flex flex-col justify-end p-12">
                     <h1 className="font-display text-3xl font-bold text-foreground leading-tight max-w-sm">
-                        Changelogs e Release Notes que fazem seu produto evoluir de forma pública
+                        Todas as atualizações da sua stack num só lugar
                     </h1>
                     <p className="mt-4 text-sm text-foreground-muted leading-relaxed max-w-sm">
-                        O Prism é uma plataforma SaaS para publicar atualizações de produtos digitais com clareza e organização. Crie uma página pública de changelog, notifique usuários por e-mail automaticamente e incorpore atualizações em qualquer site com um widget embeddable.
-                        <br /><br />
-                        Feito para startups, desenvolvedores e projetos open source que querem mostrar evolução real, comunicar novas features e construir confiança com usuários.
+                        O Prism coleta automaticamente as releases das suas principais tecnologias e entrega um digest por e-mail com o que mudou nas tecnologias que você usa — no ritmo que fizer sentido para você.<br /><br />
+                        Você não precisa mais abrir repositório por repositório. Assine sua stack e fique sempre atualizado.
                     </p>
                 </div>
             </div>
@@ -50,10 +49,10 @@ const AuthView = () => {
                     {/* Mobile only — copy institucional sem fundo especial */}
                     <section className="lg:hidden flex flex-col gap-3">
                         <h2 className="font-display text-xl font-bold text-foreground leading-snug">
-                            Changelogs e Release Notes que fazem seu produto evoluir de forma pública
+                            Todas as atualizações da sua stack num só lugar
                         </h2>
                         <p className="text-sm text-foreground-muted leading-relaxed">
-                            O Prism é uma plataforma SaaS para publicar atualizações de produtos digitais com clareza e organização. Crie uma página pública de changelog, notifique usuários por e-mail automaticamente e incorpore atualizações em qualquer site com um widget embeddable.
+                            O Prism coleta automaticamente as releases das suas principais tecnologias e entrega um digest por e-mail com o que mudou nas tecnologias que você usa — no ritmo que fizer sentido para você.
                         </p>
                     </section>
 

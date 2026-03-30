@@ -23,7 +23,7 @@ const Register = ({ onSwitchToLogin }: RegisterProps) => {
                 <CardTitle>Crie sua conta</CardTitle>
 
                 <CardDescription>
-                    Preencha os dados abaixo para começar a usar o Prism.
+                    Assine as tecnologias que você usa e receba um digest por e-mail.
                 </CardDescription>
             </CardHeader>
 

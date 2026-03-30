@@ -23,7 +23,7 @@ const Login = ({ onSwitchtoRegister }: LoginProps) => {
                 <CardTitle>Faça login na sua conta</CardTitle>
 
                 <CardDescription>
-                    Digite suas credenciais para acessar sua conta.
+                    Acesse seu painel e acompanhe as novidades da sua stack.
                 </CardDescription>
             </CardHeader>
 
