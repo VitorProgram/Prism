@@ -65,7 +65,7 @@ export default function Home() {
                 <div className="absolute inset-0 z-0">
                     <HeroBackground />
                 </div>
-                <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-background to-transparent z-10" />
+                <div className="absolute inset-x-0 bottom-0 h-48 bg-linear-to-t from-background to-transparent z-10" />
 
                 <div className="relative z-20 flex flex-col items-center gap-6 max-w-3xl">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs uppercase tracking-widest font-mono bg-primary/10 border border-primary/20 text-primary">
